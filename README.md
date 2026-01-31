@@ -50,4 +50,13 @@ Requiere `cpmtools` y `mc` instalados en Linux.
 
 
 ---
+## Créditos y Licencias de Terceros
+
+Este proyecto es una interfaz (TUI) que integra y potencia el uso de diversas herramientas de software libre esenciales para el desarrollo en sistemas retro:
+
+* **GNU Midnight Commander**: Se utilizan los componentes `mcdiff`, `mcedit` y `mcview` para la comparación y edición visual de archivos. Estas herramientas están bajo la licencia [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
+* **CP/M Tools**: La manipulación técnica de las imágenes de disco `.dsk` se realiza mediante binarios como `cpmcp`, `mkfs.cpm` y `cpmls`, fundamentales para la gestión de archivos en entornos Z80.
+* **ncurses**: La biblioteca utilizada para la construcción de la interfaz gráfica en modo texto, distribuida bajo una licencia de código abierto tipo MIT/X11.
+
+ZMC funciona como un orquestador que invoca estas utilidades de sistema, respetando las libertades y términos de sus respectivas licencias originales.
 *Desarrollado por lu1pvt - 2026. ¡Gracias!*
